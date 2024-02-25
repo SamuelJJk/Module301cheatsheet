@@ -13,28 +13,33 @@ body{
   font-size: 30px;
 
 }
-.topContainer {
+/* top-container */
+.fourPhases{
   border: solid blue;
   padding:1em;
   /* height: 42vh; */
-  margin: 1em;
+  margin:0px;
   display:flex;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right:0px;
 }
-
-.midContainer {
+/* mid-container */
+.areaAttn{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  border: solid orange;
+  padding-top:5px;
+}
+.termsCont{
   border: solid green;
   height: 42vh;
-  margin: 1em;
+  width: 50%;
   display:flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
-.lowContainer {
-  border: solid purple;
-  height: 42vh;
-  margin: 1em;
+.termsAnsCont{
+border: solid black;
+height: 42vh;
+width: 50%;
 }
 .phaseContainer {
   border: solid black;
